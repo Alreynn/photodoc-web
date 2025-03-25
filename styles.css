@@ -1,0 +1,77 @@
+@font-face {
+    font-family: 'Helvetica';
+    src: url('../fonts/Helvetica.ttf') format('truetype'),
+         url('../fonts/Helvetica-Bold.ttf') format('truetype'),
+         url('../fonts/Helvetica-Bold-Condensed.otf') format('opentype');
+    font-style: normal;
+}
+
+header {
+    background-color: silver;
+    border: none;
+    width: 100vw;
+    margin: -20px 0;
+    height: 100%;
+    padding: 10px;
+    padding-top: 5px;
+    padding-right: -10px;
+    padding-bottom: 5px;
+    margin-top: -40px;
+    margin-bottom: 15px;
+    position: relative;
+    left: -40px;
+}
+
+body {
+    background-image: url('cameraicon.png');
+    display: block;
+    padding: 10px;
+    font-family: 'Helvetica', sans-serif;
+    margin: 30px;
+    overflow: auto;
+}
+
+.spaceout {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.inside-box {
+    background-color: white;
+    box-shadow: 3px black;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 3%;
+    margin-bottom: 5%;
+    text-align: center;
+    width: 25%;
+    height: auto;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+}
+
+.color {
+    background-color: white;
+    width: 100vw;
+    margin: -20px 0;
+    height: 100%;
+    padding: 10px;
+    padding-right: -10px;
+    margin-top: -40px;
+    margin-bottom: 15px;
+    position: relative;
+    left: -40px;
+}
+
+hr {
+    border: none;
+    border-top: 1px solid black;
+    width: 100vw;
+    margin-top: 0;
+    padding-right: -10px;
+    margin-bottom: 15px;
+    position: relative;
+}
