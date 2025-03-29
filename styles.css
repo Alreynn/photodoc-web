@@ -5,73 +5,73 @@
          url('../fonts/Helvetica-Bold-Condensed.otf') format('opentype');
     font-style: normal;
 }
-
-header {
-    background-color: silver;
-    border: none;
-    width: 100vw;
-    margin: -20px 0;
-    height: 100%;
-    padding: 10px;
-    padding-top: 5px;
-    padding-right: -10px;
-    padding-bottom: 5px;
-    margin-top: -40px;
-    margin-bottom: 15px;
-    position: relative;
-    left: -40px;
+* {
+    margin: 0;
+    padding: 0;
 }
-
+header {
+    width: 100%;
+    position: fixed;
+    padding: 7px;
+    background-color: white;
+}
+footer {
+    border-top: 1px solid black;
+    padding: 20px;
+    text-align: center;
+}
+a {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+.widthmax {
+    width: 100vw;
+}
 body {
-    background-image: url('cameraicon.png');
-    display: block;
-    padding: 10px;
     font-family: 'Helvetica', sans-serif;
-    margin: 30px;
     overflow: auto;
 }
-
+.boxyimg {
+    background-image: url("adventure_9-16.jpg");
+    background-size: 100% 100%;
+}
 .spaceout {
-    padding-top: 100px;
-    padding-bottom: 100px;
+    padding-top: 30vw;
+    padding-bottom: 30vw;
+    margin-left: 15px;
+    color: white;
 }
-
-.inside-box {
-    background-color: white;
-    box-shadow: 3px black;
-    margin-left: auto;
-    margin-right: auto;
-    padding: 3%;
-    margin-bottom: 5%;
-    text-align: center;
-    width: 25%;
-    height: auto;
+.boxspace {
+    padding-top: 5vh;
+    padding-bottom: 5vh;
 }
-
-img {
-    width: 100%;
-    height: 100%;
-}
-
-.color {
-    background-color: white;
-    width: 100vw;
-    margin: -20px 0;
-    height: 100%;
-    padding: 10px;
-    padding-right: -10px;
-    margin-top: -40px;
-    margin-bottom: 15px;
-    position: relative;
-    left: -40px;
-}
-
-hr {
-    border: none;
+.box {
+    display: flex;
+    align-items: space-evenly;
+    align-content: flex-start;
+    flex-wrap: wrap;
+    background-color: #7996F0;
     border-top: 1px solid black;
-    width: 100vw;
-    margin-top: 0;
-    padding-right: -10px;
-    margin-bottom: 15px;
-    position: relative;
+    color: white;
+    padding: 10px;
+}
+.inside-box {
+    display: block;
+    margin-top: 15px;
+    margin-bottom: 25px;
+    box-shadow: 5px 5px black;
+    background-color: white;
+    color: black;
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 2.25%;
+    max-width: 42vw;
+}
+img {
+    width: 42vw;
+}
+.git {
+    width: 20px;
 }
